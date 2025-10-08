@@ -66,6 +66,6 @@ async function downloadCard() {
 
     const a = document.createElement("a");
     a.href = canvas.toDataURL("image/png");
-    a.download = `${name_form.value} profile-card.json`;
+    a.download = `${name_form.value} profile-card.png`;
     a.click();
 }
