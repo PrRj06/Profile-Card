@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+form {
+    width: 500px;
+    height: fit-content;  
+    border: 5px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+form h1 {
+    margin-bottom: 10px;
+}
+form input {
+    width: 60%;
+    padding: 10px 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+form #submit-form {
+    width: 60%;
+    padding: 10px 0;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+/* card's css */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 500px;
+    height: fit-content;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+header {
+  display: flex;
+  align-items: center;       
+  justify-content: space-between;   
+  padding: 0 10px;       
+  position: relative;
+  height: 40px; 
+  background-color: rgb(26, 25, 25);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.309);
+  
+}
+header .color-buttons-group {
+    display: flex;
+}
+header p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.color-buttons-group .red,
+.color-buttons-group .yellow,
+.color-buttons-group .green{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 3px;
+}
+
+.card .title-field {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.309);
+}
+
+.card .entry {
+    width: 100%;
+    padding: 5px 5pc;
+    display: flex;
+    margin: 10px 0;
+}
+
+.card .number {
+    color: grey;
+}
+.card .field {
+    color: rgb(248, 5, 94);
+}
+.card .value {
+    color: rgb(12, 194, 12);
+}
+
+#download-card {
+    width: 200px;
+    padding: 10px 0;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
