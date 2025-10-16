@@ -97,7 +97,15 @@ header p {
     outline: none;
     margin: 0 3px;
 }
-
+.logos {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.309);
+}
+.logos i{
+    margin: 0 10px;
+}
 .card .title-field {
     width: 100%;
     padding: 10px 0;
