@@ -20,7 +20,13 @@ function createCard(){
         <p>Business Card.json</p>
         </header>
         <div class="title-field">${name_form.value}'s profile-card.json</div>
-        
+        <div class="logos">
+            <i class="fa-solid fa-file"></i>
+            <i class="fa-solid fa-folder"></i>
+            <i class="fa-solid fa-download"></i>
+            <i class="fa-solid fa-upload"></i>
+            <i class="fa-solid fa-code"></i>
+        </div>
         <!--Name field  -->
         <div class="entry entry1">
         <span class="number" style="margin-right: 2pc;">1</span>
